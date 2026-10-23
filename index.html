@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Картка товару</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+
+  <div class="w-full max-w-sm overflow-hidden rounded-2xl bg-white shadow-lg transition hover:shadow-xl">
+    <div class="relative aspect-video">
+      <img
+        src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/e60d8ceca2c1484284d6f15b9bce14b6_9366/Botas_de_Futebol_com_Lingua_Dobrada_Predator_League_Piso_Artificial_Crianca_Branco_IH2105_01_00_standard_hover.jpg"
+        alt="Бездротові навушники"
+        class="h-full w-full object-cover"
+      >
+      <span class="absolute left-3 top-3 rounded-full bg-green-500 px-3 py-1 text-sm font-semibold text-white">
+        New
+      </span>
+    </div>
+    <div class="p-5">
+      <h2 class="mb-2 text-xl font-bold text-gray-800">
+        Football Boots with Folded Language Predator League
+      </h2>
+
+      <p class="mb-4 text-sm leading-relaxed text-gray-500">
+        Football boots with Nanostrike mesh top for shot precision.
+      </p>
+      <div class="mb-5 flex items-center gap-3">
+        <span class="text-base text-gray-400 line-through">
+          90$
+        </span>
+        <span class="text-2xl font-bold text-red-600">
+          75$
+        </span>
+      </div>
+
+      <button
+        type="button"
+        class="w-full rounded-xl bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
+      >
+        Add to cart
+      </button>
+    </div>
+
+  </div>
+
+</body>
+</html>
